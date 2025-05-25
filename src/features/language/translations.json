@@ -1,0 +1,158 @@
+{
+    "no": {
+      "welcome": "Velkommen til Stavanger Øre-Nese-Hals",
+      "description": "Dette er en test",
+      "mainButton": "Forside",
+      "staffButton": "Ansatte",
+      "contactButton": "Kontakt oss",
+      "treatmentsButton": "Behandlingstilbud",
+      "infoFrontpage": "Vi er en spesialistpraksis for utredning, diagnostisering og behandling av problemstillinger i Øre-nese-hals-området. Vi er et svært kompetent team med bred erfaring innenfor ØNH og allergologi.",
+      "secondPar": "Praksisen er del av helsetilbudet organisert under Helse Vest. Vi samarbeider tett med relevante fagmiljø ved Stavanger universitetssjukehus og andre avtalespesialister.",
+      "treatments":[
+        {
+            "title": "Allergivaksinasjon",
+            "description": "Vi tilbyr allergivaksinasjon for pasienter med allergi mot pollen, husstøvmidd og pelsdyr. Behandlingen kan redusere symptomer og behovet for medisiner.",
+            "image": "/allergi.jpeg",
+            "longDescription": "Allergivaksinasjon, også kjent som allergi immunterapi, er en behandling som kan hjelpe pasienter med allergiske reaksjoner på pollen, husstøvmidd og pelsdyr. Behandlingen innebærer gradvis eksponering for allergenet for å bygge opp toleranse over tid. Dette kan føre til en betydelig reduksjon i allergisymptomer og redusert behov for medisiner."
+
+        },
+        {
+            "title": "Hørselsutredning",
+            "description": "Vi utfører omfattende hørselsutredninger for å diagnostisere og behandle hørselstap. Dette inkluderer audiometri, tympanometri og otoakustiske emisjoner.",
+            "image": "/hørsel.jpg",
+            "longDescription": "Hørselsutredning er en viktig del av vår praksis. Vi tilbyr omfattende tester for å vurdere hørselstilstanden til pasientene våre. Dette inkluderer audiometri (lyttetester), tympanometri (måling av mellomøretrykk) og otoakustiske emisjoner (tester av indre ørefunksjon). Basert på resultatene kan vi gi råd om passende behandling eller høreapparater."
+
+        },
+        {
+            "title": "Nese- og bihulebehandling",
+            "description": "Vi tilbyr behandling for tilstander som bihulebetennelse, nesepolypper og allergisk rhinitt. Behandlingen kan inkludere både medisinsk og kirurgisk tilnærming.",
+            "image": "/neseogbihule.png",
+            "longDescription": "Behandling av nese- og bihuleproblemer er en viktig del av vårt tilbud. Vi håndterer tilstander som bihulebetennelse, nesepolypper og allergisk rhinitt. Behandlingen kan variere fra medisinsk behandling med nesespray og antihistaminer til kirurgiske inngrep for å fjerne polypper eller åpne opp tette bihuler."
+        },
+        {
+            "title": "Søvnmedisin",
+            "description": "Vi tilbyr utredning og behandling av søvnforstyrrelser, inkludert søvnapné. Dette kan omfatte søvnstudier og tilpassede behandlingsplaner.",
+            "image": "/sleep.webp",
+            "longDescription": "Søvnmedisin er et viktig område i vår praksis. Vi tilbyr utredning og behandling av ulike søvnforstyrrelser, inkludert søvnapné. Dette kan innebære søvnstudier for å overvåke søvnmønsteret ditt, samt utvikling av tilpassede behandlingsplaner som kan inkludere livsstilsendringer, bruk av CPAP-maskiner eller andre behandlingsmetoder."
+
+        }
+    ],
+    "contactUs": "Kontakt oss",
+    "email": "E-post",
+    "phone": "Telefon",
+    "address": "Adresse",
+    "openingHours": "Åpningstider (man-fre)",
+    "staffDescription": "Våre ansatte er høyt kvalifiserte og har bred erfaring innen ØNH og allergologi. Vi jobber kontinuerlig med faglig utvikling for å kunne tilby best mulig behandling til våre pasienter.",
+    "staff": [
+        {
+            "name": "Elin-Johanne Katle",
+            "position": "Spesialist i Øre-Nese-Hals",
+            "image": "/elin-johanne.jpeg",
+            "description": "Elin-Johanne Katle har over 20 års erfaring innen ØNH og spesialiserer seg på behandling av søvnforstyrrelser. PHD i kronisk bihulebetennelse."
+        },
+        {
+            "name": "Elizabeth Tjørhom",
+            "position": "Helsesekretær",
+            "image": "/elizabeth.jpg",
+            "description": "Elizabeth Tjørhom er vår dyktige helsesekretær som har lang erfaring med pasientbehandling og administrasjon i ØNH-praksis."
+        },
+        {
+            "name": "Elitsa Diyanova Aleksieva",
+            "position": "Helsesekretær",
+            "image": "/elitsa.jpg",
+            "description": "Elitsa Diyanova Aleksieva er en erfaren helsesekretær som bidrar til effektiv drift av praksisen og pasientbehandling."
+        },
+        {
+            "name": "Tiril Jordahl",
+            "position": "Audiograf",
+            "image": "/tiril.jpg",
+            "description": "Tiril Jordahl er vår audiograf med spesialisering innen hørselsutredning og behandling. Hun har bred erfaring med pasienter med hørselstap."
+        },
+        {
+            "name": "Martine Skudem",
+            "position": "ØNH spesialist",
+            "image": "/martine.jpg",
+            "description": "Martine Skudem er en vikar ØNH spesialist med erfaring innen utredning og behandling av ØNH-tilstander."
+        }
+    ],
+    "infoTreatmentsDescription": "Vi tilbyr et bredt spekter av behandlingstilbud innen Øre-Nese-Hals og allergologi. Våre behandlinger er tilpasset den enkelte pasients behov og kan inkludere både medisinsk og kirurgisk tilnærming."
+  },
+
+    "en": {
+      "welcome": "Welcome to Stavanger Ear-Nose-Throat",
+      "description": "This is a test",
+      "mainButton": "Main Page",
+      "staffButton": "Employees",
+      "contactButton": "Contact Us",
+      "treatmentsButton": "Treatment Offers",
+      "infoFrontpage": "Stavanger Ear-Nose-Throat is a specialist practice for the examination, diagnosis, and treatment of conditions related to the ear, nose, and throat area. We are a highly skilled team with broad experience in ENT and allergology." ,
+      "secondPar": "The practice is part of the healthcare services organized under Helse Vest. We work closely with relevant professional environments at Stavanger University Hospital (SUS) and other contracted specialists.",
+      "treatments":[        
+            {
+                "title": "Allergy Immunotherapy",
+                "description": "We offer allergy immunotherapy for patients with allergies to pollen, house dust mites, and pet dander. This treatment can reduce symptoms and the need for medication.",
+                "image": "/allergi.jpeg",
+                "longDescription": "Allergy immunotherapy, also known as allergy shots, is a treatment that can help patients with allergic reactions to pollen, house dust mites, and pet dander. The treatment involves gradual exposure to the allergen to build up tolerance over time. This can lead to a significant reduction in allergy symptoms and reduced need for medication."
+            },
+            {
+                "title": "Hearing Assessment",
+                "description": "We perform comprehensive hearing assessments to diagnose and treat hearing loss. This includes audiometry, tympanometry, and otoacoustic emissions.",
+                "image": "/hørsel.jpg",
+                "longDescription": "Hearing assessment is an important part of our practice. We offer comprehensive tests to evaluate the hearing condition of our patients. This includes audiometry (hearing tests), tympanometry (measurement of middle ear pressure), and otoacoustic emissions (tests of inner ear function). Based on the results, we can provide advice on appropriate treatment or hearing aids."
+            },
+            {
+                "title": "Nasal and Sinus Treatment",
+                "description": "We provide treatment for conditions such as sinusitis, nasal polyps, and allergic rhinitis. Treatment may include both medical and surgical approaches.",
+                "image": "/neseogbihule.png",
+                "longDescription": "Treatment of nasal and sinus problems is an important part of our offerings. We manage conditions such as sinusitis, nasal polyps, and allergic rhinitis. Treatment can range from medical treatment with nasal sprays and antihistamines to surgical procedures to remove polyps or open blocked sinuses."
+
+            },
+            {
+                "title": "Sleep Medicine",
+                "description": "We offer assessment and treatment of sleep disorders, including sleep apnea. This may involve sleep studies and tailored treatment plans.",
+                "image": "/sleep.webp",
+                "longDescription": "Sleep medicine is an important area in our practice. We offer assessment and treatment of various sleep disorders, including sleep apnea. This may involve sleep studies to monitor your sleep patterns, as well as the development of tailored treatment plans that may include lifestyle changes, use of CPAP machines, or other treatment methods."
+            }
+        ],
+        "contactUs": "Contact Us",
+        "email": "Email",
+        "phone": "Phone",
+        "address": "Address",
+        "openingHours": "Opening Hours (mon-fri)",
+        "staffDescription": "Our staff are highly qualified and have extensive experience in ENT and allergology. We continuously work on professional development to provide the best possible treatment for our patients.",
+        "staff": [
+            {
+                "name": "Elin-Johanne Katle",
+                "position": "Ear-Nose-Throat Specialist",
+                "image": "/elin-johanne.jpeg",
+                "description": "Elin-Johanne Katle has over 20 years of experience in ENT and specializes in the treatment of sleep disorders. PHD in chronic rhinosinusitis."
+            },
+            {
+                "name": "Elizabeth Tjørhom",
+                "position": "Health Secretary",
+                "image": "/elizabeth.jpg",
+                "description": "Elizabeth Tjørhom is our skilled health secretary with extensive experience in patient care and administration in ENT practice."
+            },
+            {
+                "name": "Elitsa Diyanova Aleksieva",
+                "position": "Health Secretary",
+                "image": "/elitsa.jpg",
+                "description": "Elitsa Diyanova Aleksieva is an experienced health secretary who contributes to the efficient operation of the practice and patient care."
+            },
+            {
+                "name": "Tiril Jordahl",
+                "position": "Audiologist",
+                "image": "/tiril.jpg",
+                "description": "Tiril Jordahl is our audiologist specializing in hearing assessment and treatment. She has extensive experience with patients with hearing loss."
+            },
+            {
+                "name": "Martine Skudem",
+                "position": "ENT Specialist",
+                "image": "/martine.jpg",
+                "description": "Martine Skudem is a locum ENT specialist with experience in the assessment and treatment of ENT conditions."
+            }
+        ],
+        "infoTreatmentsDescription": "We offer a wide range of treatment options in Ear-Nose-Throat and allergology. Our treatments are tailored to the individual patient's needs and may include both medical and surgical approaches."
+    }
+  }
+  
