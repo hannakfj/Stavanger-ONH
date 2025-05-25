@@ -20,6 +20,7 @@ function Hero() {
       sx={{
         height: { xs: '200px', sm: '300px', md: '400px' },
         display: 'flex',
+        textAlign: 'center',
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
