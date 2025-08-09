@@ -1,11 +1,10 @@
-// App.tsx
-import { Routes, Route } from 'react-router-dom'
-import Header from './components/Header'
-import Home from './pages/Home'
-import Contact from './pages/Contact'
-import Treatments from './pages/Treatments'
-import TreatmentDetail from './components/Treatment'
-import Staff from './pages/Staff'
+import { Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
+import Treatments from "./pages/Treatments";
+import TreatmentDetail from "./components/Treatment";
+import Staff from "./pages/Staff";
 
 export default function App() {
   return (
@@ -17,8 +16,7 @@ export default function App() {
         <Route path="treatments" element={<Treatments />} />
         <Route path="/treatment/:name" element={<TreatmentDetail />} />
         <Route path="employees" element={<Staff />} />
-        {/* Legg til flere routes her */}
       </Routes>
     </>
-  )
+  );
 }

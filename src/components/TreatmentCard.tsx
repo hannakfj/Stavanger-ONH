@@ -1,5 +1,5 @@
-import React from 'react';
-import { Card, CardContent, CardMedia, Typography } from '@mui/material';
+import React from "react";
+import { Card, CardContent, CardMedia, Typography } from "@mui/material";
 
 type TreatmentCardProps = {
   treatmentName: string;
@@ -7,7 +7,11 @@ type TreatmentCardProps = {
   onClick?: () => void;
 };
 
-const TreatmentCard: React.FC<TreatmentCardProps> = ({ treatmentName, image, onClick }) => {
+const TreatmentCard: React.FC<TreatmentCardProps> = ({
+  treatmentName,
+  image,
+  onClick,
+}) => {
   return (
     <Card
       onClick={onClick}
@@ -15,10 +19,10 @@ const TreatmentCard: React.FC<TreatmentCardProps> = ({ treatmentName, image, onC
         maxWidth: 345,
         borderRadius: 2,
         boxShadow: 3,
-        cursor: onClick ? 'pointer' : 'default',
-        transition: 'transform 0.2s',
-        '&:hover': {
-          transform: onClick ? 'scale(1.02)' : 'none',
+        cursor: onClick ? "pointer" : "default",
+        transition: "transform 0.2s",
+        "&:hover": {
+          transform: onClick ? "scale(1.02)" : "none",
         },
       }}
     >

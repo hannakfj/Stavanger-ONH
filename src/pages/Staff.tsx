@@ -1,6 +1,6 @@
-import { Box, Typography } from '@mui/material';
-import { useTranslation } from '../features/language/useTranslation';
-import EmployeeList from '../components/EmployeeList';
+import { Box, Typography } from "@mui/material";
+import { useTranslation } from "../features/language/useTranslation";
+import EmployeeList from "../components/EmployeeList";
 
 function Staff() {
   const { t } = useTranslation();
@@ -12,17 +12,17 @@ function Staff() {
         variant="h5"
         gutterBottom
         sx={{
-          textAlign: 'center',
+          textAlign: "center",
           marginBottom: 4,
-          maxWidth: '800px',
-          mx: 'auto', // center horizontally
+          maxWidth: "800px",
+          mx: "auto",
           lineHeight: 1.6,
-          color: 'text.secondary'
+          color: "text.secondary",
         }}
       >
-        {t('staffDescription')}
+        {t("staffDescription")}
       </Typography>
-      
+
       <EmployeeList />
     </Box>
   );

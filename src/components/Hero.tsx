@@ -1,15 +1,15 @@
-import React from 'react'
-import { Box, Typography } from '@mui/material'
-import { useTranslation } from '../features/language/useTranslation'
-import { motion, useScroll, useTransform } from 'framer-motion'
-import { useRef } from 'react';
+import React from "react";
+import { Box, Typography } from "@mui/material";
+import { useTranslation } from "../features/language/useTranslation";
+import { motion, useScroll, useTransform } from "framer-motion";
+import { useRef } from "react";
 
 function Hero() {
   const { t } = useTranslation();
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ['start center', 'end start'], 
+    offset: ["start center", "end start"],
   });
 
   // Parallax-effekt for teksten – forsink bevegelsen
@@ -18,28 +18,28 @@ function Hero() {
     <Box
       ref={ref}
       sx={{
-        height: { xs: '200px', sm: '300px', md: '400px' },
-        display: 'flex',
-        textAlign: 'center',
-        flexDirection: 'column',
-        alignItems: 'center',
-        justifyContent: 'center',
-        position: 'relative',
-        overflow: 'hidden',
+        height: { xs: "200px", sm: "300px", md: "400px" },
+        display: "flex",
+        textAlign: "center",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        position: "relative",
+        overflow: "hidden",
       }}
     >
       {/* Bakgrunn (stasjonær) */}
       <Box
         sx={{
-          position: 'absolute',
-          backgroundSize: 'cover',
+          position: "absolute",
+          backgroundSize: "cover",
           top: 0,
           left: 0,
           right: 0,
           bottom: 0,
           opacity: 0.7,
           backgroundImage: "url('/katle.jpeg')",
-          backgroundPosition: 'center',
+          backgroundPosition: "center",
           zIndex: -1,
         }}
       />
@@ -50,13 +50,13 @@ function Hero() {
           component="h1"
           color="#074974"
           sx={{
-            fontSize: { xs: '1.5rem', md: '3.5rem' },
-            fontWeight: 'bold',
+            fontSize: { xs: "1.5rem", md: "3.5rem" },
+            fontWeight: "bold",
             px: 2,
-            backgroundColor: 'rgba(255, 255, 255, 0.8)',
+            backgroundColor: "rgba(255, 255, 255, 0.8)",
           }}
         >
-          {t('welcome')}
+          {t("welcome")}
         </Typography>
       </motion.div>
     </Box>
