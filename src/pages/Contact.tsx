@@ -23,8 +23,9 @@ function Contact() {
           +47 51 88 35 00
         </a>
       </Typography>
+      <Typography>{t("phoneHours")}: 08:00 - 11:00</Typography>
       <Typography>{t("address")}: Boganesveien 10, 4020 Stavanger</Typography>
-      <Typography>{t("openingHours")}: 08:00 - 16:00</Typography>
+      <Typography>{t("openingHours")}: 08:00 - 15:00</Typography>
       <Box
         component="iframe"
         title="Stavanger ØNH kart"

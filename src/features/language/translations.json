@@ -38,6 +38,7 @@
     "contactUs": "Kontakt oss",
     "email": "E-post",
     "phone": "Telefon",
+    "phoneHours": "Telefontid (man-fre)",
     "address": "Adresse",
     "openingHours": "Åpningstider (man-fre)",
     "staffDescription": "Våre ansatte er høyt kvalifiserte og har bred erfaring innen ØNH og allergologi. Vi jobber kontinuerlig med faglig utvikling for å kunne tilby best mulig behandling til våre pasienter.",
@@ -47,12 +48,6 @@
         "position": "Spesialist i Øre-Nese-Hals",
         "image": "/elin-johanne.jpeg",
         "description": "Elin-Johanne Katle har over 20 års erfaring innen ØNH og spesialiserer seg på behandling av søvnforstyrrelser. PHD i kronisk bihulebetennelse."
-      },
-      {
-        "name": "Martine Skudem",
-        "position": "ØNH spesialist",
-        "image": "/martine.jpg",
-        "description": "Martine Skudem er en vikar ØNH spesialist med erfaring innen utredning og behandling av ØNH-tilstander."
       },
       {
         "name": "Elizabeth Tjørhom",
@@ -71,6 +66,12 @@
         "position": "Audiograf",
         "image": "/tiril.jpg",
         "description": "Tiril Jordahl er vår audiograf med spesialisering innen hørselsutredning og behandling. Hun har bred erfaring med pasienter med hørselstap."
+      },
+      {
+        "name": "Martine Skudem",
+        "position": "ØNH spesialist",
+        "image": "/martine.jpg",
+        "description": "Martine Skudem er en vikar ØNH spesialist med erfaring innen utredning og behandling av ØNH-tilstander."
       }
     ],
     "infoTreatmentsDescription": "Vi tilbyr et bredt spekter av behandlingstilbud innen Øre-Nese-Hals og allergologi. Våre behandlinger er tilpasset den enkelte pasients behov og kan inkludere både medisinsk og kirurgisk tilnærming."
@@ -115,6 +116,7 @@
     "contactUs": "Contact Us",
     "email": "Email",
     "phone": "Phone",
+    "phoneHours": "Phone Hours (mon-fri)",
     "address": "Address",
     "openingHours": "Opening Hours (mon-fri)",
     "staffDescription": "Our staff are highly qualified and have extensive experience in ENT and allergology. We continuously work on professional development to provide the best possible treatment for our patients.",
@@ -124,12 +126,6 @@
         "position": "Ear-Nose-Throat Specialist",
         "image": "/elin-johanne.jpeg",
         "description": "Elin-Johanne Katle has over 20 years of experience in ENT and specializes in the treatment of sleep disorders. PHD in chronic rhinosinusitis."
-      },
-      {
-        "name": "Martine Skudem",
-        "position": "ENT Specialist",
-        "image": "/martine.jpg",
-        "description": "Martine Skudem is a locum ENT specialist with experience in the assessment and treatment of ENT conditions."
       },
       {
         "name": "Elizabeth Tjørhom",
@@ -148,6 +144,12 @@
         "position": "Audiologist",
         "image": "/tiril.jpg",
         "description": "Tiril Jordahl is our audiologist specializing in hearing assessment and treatment. She has extensive experience with patients with hearing loss."
+      },
+      {
+        "name": "Martine Skudem",
+        "position": "ENT Specialist",
+        "image": "/martine.jpg",
+        "description": "Martine Skudem is a locum ENT specialist with experience in the assessment and treatment of ENT conditions."
       }
     ],
     "infoTreatmentsDescription": "We offer a wide range of treatment options in Ear-Nose-Throat and allergology. Our treatments are tailored to the individual patient's needs and may include both medical and surgical approaches."
