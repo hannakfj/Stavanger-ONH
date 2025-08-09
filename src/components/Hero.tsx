@@ -1,5 +1,4 @@
-import React from "react";
-import { Box, Typography } from "@mui/material";
+import { Box, Typography, useMediaQuery, useTheme } from "@mui/material";
 import { useTranslation } from "../features/language/useTranslation";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
@@ -11,8 +10,9 @@ function Hero() {
     target: ref,
     offset: ["start center", "end start"],
   });
+  const theme = useTheme();
+  const isXs = useMediaQuery(theme.breakpoints.down("sm"));
 
-  // Parallax-effekt for teksten – forsink bevegelsen
   const y = useTransform(scrollYProgress, [0, 1], [0, 40]);
   return (
     <Box
@@ -28,7 +28,6 @@ function Hero() {
         overflow: "hidden",
       }}
     >
-      {/* Bakgrunn (stasjonær) */}
       <Box
         sx={{
           position: "absolute",
@@ -44,7 +43,7 @@ function Hero() {
         }}
       />
 
-      <motion.div style={{ y }}>
+      <motion.div style={{ y, width: "100%" }}>
         <Typography
           variant="h3"
           component="h1"
@@ -57,10 +56,11 @@ function Hero() {
           }}
         >
           {t("welcome")}
+          {isXs && <br />}
+          {t("sonh")}
         </Typography>
       </motion.div>
     </Box>
   );
 }
 export default Hero;
-// Import useRef from React to fix the issue

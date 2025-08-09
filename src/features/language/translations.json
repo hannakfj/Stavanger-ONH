@@ -1,6 +1,7 @@
 {
   "no": {
-    "welcome": "Velkommen til Stavanger Øre-Nese-Hals",
+    "welcome": "Velkommen til ",
+    "sonh": "Stavanger Øre-Nese-Hals",
     "description": "Dette er en test",
     "mainButton": "Forside",
     "staffButton": "Ansatte",
@@ -76,7 +77,8 @@
   },
 
   "en": {
-    "welcome": "Welcome to Stavanger Ear-Nose-Throat",
+    "welcome": "Welcome to ",
+    "sonh": "Stavanger Ear-Nose-Throat",
     "description": "This is a test",
     "mainButton": "Main Page",
     "staffButton": "Employees",
