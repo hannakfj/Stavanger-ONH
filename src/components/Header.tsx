@@ -47,6 +47,8 @@ export default function Header() {
     { label: t("staffButton"), path: "/employees" },
     { label: t("contactButton"), path: "#contact" },
     { label: t("treatmentsButton"), path: "/treatments" },
+    { label: t("hearingaid.title"), path: "/hearingaid" },
+
   ];
 
   return (

@@ -5,6 +5,7 @@ import Contact from "./pages/Contact";
 import Treatments from "./pages/Treatments";
 import TreatmentDetail from "./components/Treatment";
 import Staff from "./pages/Staff";
+import HearingAid from "./pages/HearingAid";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="treatments" element={<Treatments />} />
         <Route path="/treatment/:name" element={<TreatmentDetail />} />
         <Route path="employees" element={<Staff />} />
+        <Route path="hearingaid" element={<HearingAid />} />
       </Routes>
     </>
   );

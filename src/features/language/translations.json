@@ -2,13 +2,47 @@
   "no": {
     "welcome": "Velkommen til ",
     "sonh": "Stavanger Øre-Nese-Hals",
-    "description": "Dette er en test",
     "mainButton": "Forside",
     "staffButton": "Ansatte",
     "contactButton": "Kontakt oss",
     "treatmentsButton": "Behandlingstilbud",
     "infoFrontpage": "Vi er en spesialistpraksis for utredning, diagnostisering og behandling av problemstillinger i Øre-nese-hals-området. Vi er et svært kompetent team med bred erfaring innenfor ØNH og allergologi.",
     "secondPar": "Praksisen er del av helsetilbudet organisert under Helse Vest. Vi samarbeider tett med relevante fagmiljø ved Stavanger universitetssjukehus (SUS) og andre avtalespesialister.",
+    "hearingaid.title": "Høreapparat",
+    "hearingaid.first": "Høreapparat brukere kan bestille tid hos audiograf om det er behov for justering etter at høreapparatet er brukt i lengre tid.",
+    "hearingaid.second": "Vi kan hjelpe med enkle problemstillinger ved kort drop in time, men tidspunkt bør avklares via telefon.",
+    "hearingaid.third": "Ved behov for hjelp til bruk av app på telefon, ber vi deg kontakte leverandøren av høreapparatet.",
+    "hearingaid.supplier": "Kontaktinfo for brukerstøtte av høreapparat:",
+    "hearingaid.supplierList": [
+      {
+        "name": "Phonak",
+        "phone": "90 09 86 00"
+      },
+      {
+        "name": "Sivantos/Signia",
+        "phone": "22 63 22 22"
+      },
+      {
+        "name": "Starkey",
+        "phone": "51 73 12 12"
+      },
+      {
+        "name": "Oticon",
+        "phone": "23 25 61 00"
+      },
+      {
+        "name": "Widex",
+        "phone": "22 59 90 40"
+      },
+      {
+        "name": "Medhus (bruksanvisning)",
+        "phone": "61 32 90 50"
+      },
+      {
+        "name": "Cantec",
+        "phone": "66 99 60 00"
+      }
+    ],
     "treatments": [
       {
         "title": "Allergivaksinasjon",
@@ -80,13 +114,47 @@
   "en": {
     "welcome": "Welcome to ",
     "sonh": "Stavanger Ear-Nose-Throat",
-    "description": "This is a test",
     "mainButton": "Main Page",
     "staffButton": "Employees",
     "contactButton": "Contact Us",
     "treatmentsButton": "Treatment Offers",
     "infoFrontpage": "Stavanger Ear-Nose-Throat is a specialist practice for the examination, diagnosis, and treatment of conditions related to the ear, nose, and throat area. We are a highly skilled team with broad experience in ENT and allergology.",
     "secondPar": "The practice is part of the healthcare services organized under Helse Vest. We work closely with relevant professional environments at Stavanger University Hospital (SUS) and other contracted specialists.",
+    "hearingaid.title": "Hearing Aid",
+    "hearingaid.first": "Hearing aid users can book an appointment with the audiologist if adjustments are needed after prolonged use of the hearing aid.",
+    "hearingaid.second": "We can assist with simple issues during a short drop-in appointment, but the time should be confirmed by phone.",
+    "hearingaid.third": "For help with using the app on your phone, please contact the hearing aid supplier.",
+    "hearingaid.supplier": "Contact information for hearing aid support:",
+    "hearingaid.supplierList": [
+      {
+        "name": "Phonak",
+        "phone": "90 09 86 00"
+      },
+      {
+        "name": "Sivantos/Signia",
+        "phone": "22 63 22 22"
+      },
+      {
+        "name": "Starkey",
+        "phone": "51 73 12 12"
+      },
+      {
+        "name": "Oticon",
+        "phone": "23 25 61 00"
+      },
+      {
+        "name": "Widex",
+        "phone": "22 59 90 40"
+      },
+      {
+        "name": "Medhus (user manual)",
+        "phone": "61 32 90 50"
+      },
+      {
+        "name": "Cantec",
+        "phone": "66 99 60 00"
+      }
+    ],
     "treatments": [
       {
         "title": "Allergy Immunotherapy",
