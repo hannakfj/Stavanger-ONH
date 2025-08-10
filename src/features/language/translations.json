@@ -50,6 +50,12 @@
         "description": "Elin-Johanne Katle har over 20 års erfaring innen ØNH og spesialiserer seg på behandling av søvnforstyrrelser. PHD i kronisk bihulebetennelse."
       },
       {
+        "name": "Tiril Jordahl",
+        "position": "Audiograf",
+        "image": "/tiril.jpg",
+        "description": "Tiril Jordahl er vår audiograf med spesialisering innen hørselsutredning og behandling. Hun har bred erfaring med pasienter med hørselstap."
+      },
+      {
         "name": "Elizabeth Tjørhom",
         "position": "Helsesekretær",
         "image": "/elizabeth.jpg",
@@ -60,12 +66,6 @@
         "position": "Helsesekretær",
         "image": "/elitsa.jpg",
         "description": "Elitsa Diyanova Aleksieva er en erfaren helsesekretær som bidrar til effektiv drift av praksisen og pasientbehandling."
-      },
-      {
-        "name": "Tiril Jordahl",
-        "position": "Audiograf",
-        "image": "/tiril.jpg",
-        "description": "Tiril Jordahl er vår audiograf med spesialisering innen hørselsutredning og behandling. Hun har bred erfaring med pasienter med hørselstap."
       },
       {
         "name": "Martine Skudem",
@@ -128,6 +128,12 @@
         "description": "Elin-Johanne Katle has over 20 years of experience in ENT and specializes in the treatment of sleep disorders. PHD in chronic rhinosinusitis."
       },
       {
+        "name": "Tiril Jordahl",
+        "position": "Audiologist",
+        "image": "/tiril.jpg",
+        "description": "Tiril Jordahl is our audiologist specializing in hearing assessment and treatment. She has extensive experience with patients with hearing loss."
+      },
+      {
         "name": "Elizabeth Tjørhom",
         "position": "Health Secretary",
         "image": "/elizabeth.jpg",
@@ -138,12 +144,6 @@
         "position": "Health Secretary",
         "image": "/elitsa.jpg",
         "description": "Elitsa Diyanova Aleksieva is an experienced health secretary who contributes to the efficient operation of the practice and patient care."
-      },
-      {
-        "name": "Tiril Jordahl",
-        "position": "Audiologist",
-        "image": "/tiril.jpg",
-        "description": "Tiril Jordahl is our audiologist specializing in hearing assessment and treatment. She has extensive experience with patients with hearing loss."
       },
       {
         "name": "Martine Skudem",
