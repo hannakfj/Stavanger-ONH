@@ -28,11 +28,10 @@ export default function Header() {
   };
   const handleNavigate = (path: string) => {
     if (path === "#contact") {
-      navigate("/");
       setTimeout(() => {
         const el = document.getElementById("contact-section");
         if (el) el.scrollIntoView({ behavior: "smooth" });
-      }, 100);
+      }, 50);
     } else {
       navigate(path);
       setTimeout(() => {
@@ -44,11 +43,12 @@ export default function Header() {
   };
   const menuItems = [
     { label: t("mainButton"), path: "/" },
-    { label: t("staffButton"), path: "/employees" },
+    { label: t("appointment"), path: "/appointment" },
     { label: t("contactButton"), path: "#contact" },
+    { label: t("staffButton"), path: "/employees" },
     { label: t("treatmentsButton"), path: "/treatments" },
     { label: t("hearingaid.title"), path: "/hearingaid" },
-
+    { label: t("aboutUs"), path: "/about" },
   ];
 
   return (

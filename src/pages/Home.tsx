@@ -1,11 +1,14 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
 import { useTranslation } from "../features/language/useTranslation";
 import Hero from "../components/Hero";
 import Contact from "./Contact";
+import { useNavigate } from "react-router-dom";
+import InfoSection from "../components/InfoSection";
+import ServicesSection from "../components/ServiceSection";
 
 function HomePage() {
   const { t } = useTranslation();
-
+  const navigate = useNavigate();
   return (
     <>
       <Hero />
@@ -28,29 +31,40 @@ function HomePage() {
             gap: 4,
           }}
         >
-          <Typography
-            variant="h6"
-            color="text.secondary"
-            sx={{ px: 2, py: 4, maxWidth: "500px", mx: "auto" }}
-          >
-            {t("secondPar")}
-          </Typography>
+          <Box py={2}>
+            <Typography
+              variant="h6"
+              color="text.secondary"
+              sx={{ p: 2, maxWidth: "500px", mx: "auto" }}
+            >
+              {t("infoFrontpage.first")}
+            </Typography>
+
+            <Typography
+              variant="h6"
+              color="text.secondary"
+              sx={{ p: 2, maxWidth: "500px", mx: "auto" }}
+            >
+              {t("infoFrontpage.third")}
+              <Button onClick={() => navigate("/about")}>
+                {t("moreInfoButton")}
+              </Button>
+            </Typography>
+          </Box>
           <Box
             component="img"
             src="/helsevestlogo.webp"
             alt="Helse Vest Logo"
             sx={{
-              width: { xs: "50%", sm: "30%" },
-              maxWidth: "200px",
+              width: { xs: "50%", sm: "40%" },
+              maxWidth: "300px",
               height: "auto",
             }}
           />
         </Box>
       </Box>
-
-      <div id="contact-section">
-        <Contact />
-      </div>
+      <InfoSection />
+      <ServicesSection />
     </>
   );
 }

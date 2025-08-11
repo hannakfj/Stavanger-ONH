@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 export default function TreatmentList() {
   const { t } = useTranslation();
   const navigate = useNavigate();
-  const treatments = t<{ title: string; image: string }[]>("treatments");
+  const treatments = t<{ slug: string; title: string; image: string }[]>("treatments");
   const handleNavigate = (treatmentName: string) => {
     const urlSafeName = encodeURIComponent(treatmentName);
     navigate(`/treatment/${urlSafeName}`);
@@ -31,7 +31,7 @@ export default function TreatmentList() {
             key={index}
             treatmentName={treatment.title}
             image={treatment.image}
-            onClick={() => handleNavigate(treatment.title)}
+            onClick={() => handleNavigate(treatment.slug)}
           />
         ))}
       </Box>

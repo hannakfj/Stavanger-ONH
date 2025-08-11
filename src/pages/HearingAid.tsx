@@ -8,55 +8,40 @@ function HearingAid() {
   const supplierList = t<{ name: string; phone: string }[]>(
     "hearingaid.supplierList"
   );
-  console.log("list", supplierList);
   return (
-    <Box sx={{ px: 2, py: 4, maxWidth: "600px", mx: "auto" }}>
+    <Box
+      sx={{
+        marginBottom: 4,
+        maxWidth: "500px",
+        mx: "auto",
+        color: "text.secondary",
+      }}
+    >
       <Typography
         variant="h4"
-        gutterBottom
-        sx={{
-          textAlign: "center",
-          maxWidth: "800px",
-          mx: "auto",
-          lineHeight: 1.6,
-        }}
+        color="text.secondary"
+        sx={{ p: 2, maxWidth: "500px", mx: "auto" }}
       >
         {t("hearingaid.title")}
       </Typography>
       <Typography
-        gutterBottom
-        sx={{
-          fontSize: "1.2rem",
-
-          marginBottom: 4,
-          maxWidth: "800px",
-          mx: "auto",
-          color: "text.secondary",
-        }}
+        variant="h6"
+        color="text.secondary"
+        sx={{ p: 2, maxWidth: "500px", mx: "auto" }}
       >
         {t("hearingaid.first")}
       </Typography>
       <Typography
-        gutterBottom
-        sx={{
-          fontSize: "1.2rem",
-          marginBottom: 4,
-          maxWidth: "800px",
-          mx: "auto",
-          color: "text.secondary",
-        }}
+        variant="h6"
+        color="text.secondary"
+        sx={{ p: 2, maxWidth: "500px", mx: "auto" }}
       >
         {t("hearingaid.second")}
       </Typography>
       <Typography
-        gutterBottom
-        sx={{
-          fontSize: "1.2rem",
-          marginBottom: 4,
-          maxWidth: "800px",
-          mx: "auto",
-          color: "text.secondary",
-        }}
+        variant="h6"
+        color="text.secondary"
+        sx={{ p: 2, maxWidth: "500px", mx: "auto" }}
       >
         {t("hearingaid.third")}
       </Typography>

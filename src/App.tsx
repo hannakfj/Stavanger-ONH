@@ -6,6 +6,8 @@ import Treatments from "./pages/Treatments";
 import TreatmentDetail from "./components/Treatment";
 import Staff from "./pages/Staff";
 import HearingAid from "./pages/HearingAid";
+import AboutPage from "./pages/About";
+import Appointment from "./pages/Appointment";
 
 export default function App() {
   return (
@@ -15,10 +17,15 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="contact" element={<Contact />} />
         <Route path="treatments" element={<Treatments />} />
-        <Route path="/treatment/:name" element={<TreatmentDetail />} />
+        <Route path="/treatment/:slug" element={<TreatmentDetail />} />
         <Route path="employees" element={<Staff />} />
         <Route path="hearingaid" element={<HearingAid />} />
+        <Route path="about" element={<AboutPage />} />
+        <Route path="appointment" element={<Appointment />} />
       </Routes>
+      <div id="contact-section">
+        <Contact />
+      </div>
     </>
   );
 }

@@ -31,6 +31,9 @@ const TreatmentCard: React.FC<TreatmentCardProps> = ({
         height="180"
         image={image}
         alt={treatmentName}
+        sx={{
+          objectFit: "cover",
+        }}
       />
       <CardContent>
         <Typography gutterBottom variant="h6" component="div">
