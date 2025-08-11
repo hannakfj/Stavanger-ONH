@@ -1,10 +1,8 @@
 import { Box, Button, Typography } from "@mui/material";
 import { useTranslation } from "../features/language/useTranslation";
 import Hero from "../components/Hero";
-import Contact from "./Contact";
 import { useNavigate } from "react-router-dom";
 import InfoSection from "../components/InfoSection";
-import ServicesSection from "../components/ServiceSection";
 
 function HomePage() {
   const { t } = useTranslation();
@@ -64,7 +62,6 @@ function HomePage() {
         </Box>
       </Box>
       <InfoSection />
-      <ServicesSection />
     </>
   );
 }
