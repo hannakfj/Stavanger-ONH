@@ -31,7 +31,21 @@ function Contact() {
         src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=no&amp;q=Boganesveien%2010+(Stavanger%20øre%20nese%20hals)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
         sx={{
           border: 0,
-          height: { xs: "300px", sm: "400px", md: "500px" },
+          height: { xs: "300px", sm: "300px", md: "400px" },
+          width: {
+            xs: "90%",
+            sm: "60%",
+            md: "40%",
+          },
+        }}
+      />
+      <Box
+        component="img"
+        title="Stavanger ØNH kart"
+        src={t("entrancePhoto") as string}
+        sx={{
+          border: 0,
+          height: { xs: "300px", md: "400px" },
           width: {
             xs: "90%",
             sm: "60%",

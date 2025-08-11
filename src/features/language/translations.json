@@ -198,8 +198,11 @@
       "Infeksjoner og inflammatoriske lidelser",
       "Snorking/søvnforstyrrelser",
       "Operasjoner i lokalbedøvelse: dren, polypper, conchotomi, hudlesjoner"
-    ]
+    ],
+    "entrancePhoto": "/inngang.png"
+
   },
+
 
   "en": {
     "welcome": "Welcome to ",
@@ -398,6 +401,7 @@
       "Infections and inflammatory conditions",
       "Snoring/sleep disorders",
       "Local anesthesia surgeries: tubes, polyps, conchotomy, skin lesions"
-    ]
+    ],
+    "entrancePhoto": "/entrance.png"
   }
 }
