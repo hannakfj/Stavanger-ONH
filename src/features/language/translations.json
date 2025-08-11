@@ -49,6 +49,7 @@
       }
     ],
     "linkInfo": "Informasjonsvideo om søvnregistrering",
+
     "treatments": [
       {
         "slug": "fluid-in-middle-ear",
@@ -94,7 +95,7 @@
           "En nesegrime rundt ørene og inn i nesen"
         ],
         "section5": "Undersøkelsen gir ingen smerter, men noen synes at nesegrimen er ubehagelig. Se instruksjonsvideo laget av Drammen sykehus her:",
-        "linkinfo": "https://www.youtube.com/watch?v=tESd4UWKvdk"
+        "linkSleep": "https://www.youtube.com/watch?v=tESd4UWKvdk"
       },
       {
         "slug": "allergy",
