@@ -44,7 +44,14 @@ function HomePage() {
               sx={{ p: 2, maxWidth: "500px", mx: "auto" }}
             >
               {t("infoFrontpage.third")}
-              <Button onClick={() => navigate("/about")}>
+              <Button
+                onClick={() => {
+                  navigate("/about");
+                  setTimeout(() => {
+                    window.scrollTo({ top: 0, behavior: "smooth" });
+                  }, 50);
+                }}
+              >
                 {t("moreInfoButton")}
               </Button>
             </Typography>
