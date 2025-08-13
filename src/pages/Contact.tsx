@@ -5,7 +5,13 @@ function Contact() {
   const { t } = useTranslation();
   return (
     <Box
-      sx={{ padding: "20px", textAlign: "center", backgroundColor: "#f0f0f0" }}
+      id="contact-section"
+      sx={{
+        scrollMarginTop: "80px",
+        padding: "20px",
+        textAlign: "center",
+        backgroundColor: "#f0f0f0",
+      }}
     >
       <Typography variant="h4" gutterBottom>
         {t("contactUs")}

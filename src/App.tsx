@@ -23,9 +23,7 @@ export default function App() {
         <Route path="about" element={<AboutPage />} />
         <Route path="appointment" element={<Appointment />} />
       </Routes>
-      <div id="contact-section">
-        <Contact />
-      </div>
+      <Contact />
     </>
   );
 }

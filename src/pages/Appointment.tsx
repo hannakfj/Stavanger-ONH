@@ -1,7 +1,6 @@
 import Box from "@mui/material/Box";
 import { useTranslation } from "../features/language/useTranslation";
 import Typography from "@mui/material/Typography";
-import Contact from "./Contact";
 
 const Appointment = () => {
   const { t } = useTranslation();
