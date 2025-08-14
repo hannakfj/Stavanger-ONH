@@ -8,6 +8,7 @@ import Staff from "./pages/Staff";
 import HearingAid from "./pages/HearingAid";
 import AboutPage from "./pages/About";
 import Appointment from "./pages/Appointment";
+import Letter from "./pages/Letter";
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
         <Route path="hearingaid" element={<HearingAid />} />
         <Route path="about" element={<AboutPage />} />
         <Route path="appointment" element={<Appointment />} />
+        <Route path="in" element={<Letter />} />
       </Routes>
       <Contact />
     </>
