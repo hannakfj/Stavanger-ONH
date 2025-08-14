@@ -6,21 +6,19 @@ export default function Letter() {
 
   return (
     <Container maxWidth="md" sx={{ py: 4 }}>
-      {/* Tittel */}
       <Typography variant="h4" align="center" gutterBottom fontWeight="bold">
         {t("letter.title")}
       </Typography>
 
-      {/* Kort med venstre grønn stripe */}
       <Paper
         elevation={0}
         sx={{
-          borderLeft: "4px solid #2e7d32", // grønn stripe
+          borderLeft: "4px solid #18AEAC",
           pl: 2,
           mb: 3,
         }}
       >
-        <Typography variant="h6" fontWeight="bold" color="success.dark">
+        <Typography variant="h6" fontWeight="bold" color="#18AEAC">
           {t("letter.subtitle")}
         </Typography>
         <Typography fontWeight="bold">{t("letter.clinicName")}</Typography>
@@ -38,7 +36,6 @@ export default function Letter() {
         </Box>
       </Paper>
 
-      {/* Brødtekst */}
       <Typography paragraph>{t("letter.intro")}</Typography>
       <Typography paragraph>{t("letter.location")}</Typography>
       <Typography paragraph>{t("letter.parking")}</Typography>
