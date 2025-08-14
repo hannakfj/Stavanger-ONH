@@ -71,7 +71,7 @@
       {
         "slug": "fluid-in-middle-ear",
         "title": "Væske i mellomøret",
-        "image": "/neseogbihule.png",
+        "image": "/nesebihuler.png",
         "heading1": "Væske i mellomøret – sekretorisk otitt",
         "section1": "Noen barn kan etter en ørebetennelse eller forkjølelse få en opphopning av væske i øret. Dette kalles sekretorisk otitt og kan gi plager, for eksempel i form av lett hørenedsettelse, oppvåkninger nattestid, iritabilitet ol. Noen barn har ingen plager. Tilstanden går oftest over av seg selv, og hvis den skulle vedvare, finnes det behandling. Barn får dette hyppigere enn voksne bla fordi øretrompeten fra mellomøret til svelget er mer horisontal enn hos voksne.",
         "heading2": "Hva er sekretorisk otitt?",
@@ -85,7 +85,7 @@
       {
         "slug": "hearing",
         "title": "Hørsel",
-        "image": "/hørsel.jpg",
+        "image": "/hearing.jpg",
         "heading1": "Hørselsmålinger og Høreapparater",
         "section1": "Hørselsmåling og eventuelt tilpasning av høreapparat foregår etter henvisning fra din lege. Du vil få kombinert time hos både audiograf og ØNH lege. Audiografene foretar audiometri (hørselsundersøkelser) med avansert utstyr, og vi tilpasser og utprøver høreapparater for trygdens regning.",
         "section2": "Mistenker du mye ørevoks før en hørselsutredning, ønsker vi at du skyller ørene hjemme ev. hos fastlege før time.",
@@ -96,7 +96,7 @@
       {
         "slug": "sleep",
         "title": "Søvn",
-        "image": "/sleep.webp",
+        "image": "/sleep.jpg",
         "section1": "Dersom din fastlege henviser deg til oss pga mistenke om at du lider av søvnapné, vil du få gjennomført en søvnregistrering før time hos lege. Du får da time hos erfaren helsesekretær som gir deg utstyr til søvnregistrering for hjemmemåling og gir deg instruksjoner om hvordan du utfører denne. Utstyret leveres inn på klinikken  neste morgen, og du får time hos lege når undersøkelsen er analysert.",
         "heading2": "Søvnutredning",
         "section2": "Vi tilbyr søvnregistrering i utredning ved spørsmål om obstruktiv søvnapné. Obstruktiv søvnapne syndrom lengre og hyppige pustestopp under søvn som gir symptomer på dagtretthet. Korte pustepauser under søvn er nokså vanlig. Det er varigheten på pustestoppet og antall pustestopp i løpet av natten som definerer om det er snakk om sykdom.",
@@ -117,7 +117,7 @@
       {
         "slug": "allergy",
         "title": "Allergi",
-        "image": "/allergi.jpeg",
+        "image": "/allergi.jpg",
         "section1": "Klinikken har spesialkompetanse i utredning og behandling av luftveisallergi. Vi tilbyr: ",
         "listInfo": [
           "Prikktest",
@@ -290,7 +290,7 @@
       {
         "slug": "fluid-in-middle-ear",
         "title": "Fluid in the middle ear",
-        "image": "/allergi.jpeg",
+        "image": "/allergi.jpg",
         "heading1": "Fluid in the middle ear – secretory otitis",
         "section1": "Some children may experience a build-up of fluid in the ear after an ear infection or a cold. This is called secretory otitis and can cause problems such as mild hearing loss, waking at night, irritability, etc. Some children have no symptoms. The condition usually resolves on its own, and if it persists, treatment is available. Children get this more often than adults partly because the eustachian tube from the middle ear to the throat is more horizontal in children than in adults.",
         "heading2": "What is secretory otitis?",
@@ -304,7 +304,7 @@
       {
         "slug": "hearing",
         "title": "Hearing",
-        "image": "/hørsel.jpg",
+        "image": "/hearing.jpg",
         "heading1": "Hearing tests and hearing aids",
         "section1": "Hearing tests and possible fitting of a hearing aid are carried out after referral from your doctor. You will get a combined appointment with both an audiologist and an ENT doctor. The audiologists perform audiometry (hearing examinations) with advanced equipment, and we fit and trial hearing aids covered by social security.",
         "section2": "If you suspect a lot of earwax before a hearing evaluation, we ask that you rinse your ears at home or with your GP before the appointment.",
@@ -315,7 +315,7 @@
       {
         "slug": "sleep",
         "title": "Sleep",
-        "image": "/sleep.webp",
+        "image": "/sleep.jpg",
         "section1": "If your GP refers you to us due to suspected sleep apnea, you will undergo a sleep recording before your doctor’s appointment. You will first meet with an experienced medical secretary who will give you home sleep recording equipment and instructions on how to use it. The equipment is returned to the clinic the next morning, and you will see the doctor once the test has been analyzed.",
         "heading2": "Sleep evaluation",
         "section2": "We offer sleep recording as part of the evaluation for suspected obstructive sleep apnea. Obstructive sleep apnea syndrome involves longer and frequent breathing pauses during sleep that cause daytime tiredness. Short breathing pauses during sleep are quite common. It is the duration and number of pauses during the night that determine whether it is a disease.",
@@ -336,7 +336,7 @@
       {
         "slug": "allergy",
         "title": "Allergy",
-        "image": "/neseogbihule.png",
+        "image": "/nesebihuler.png",
         "section1": "The clinic has special expertise in the evaluation and treatment of respiratory allergies. We offer:",
         "listInfo": [
           "Skin prick tests",
