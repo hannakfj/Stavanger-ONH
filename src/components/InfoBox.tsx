@@ -9,7 +9,7 @@ type InfoBoxProps = {
 
 const InfoBox: React.FC<InfoBoxProps> = ({ title, description }) => {
   return (
-    <Card sx={{ maxWidth: 400}}>
+    <Card sx={{ maxWidth: 350}}>
       <CardContent>
         <Typography variant="h5" color="text.secondary" sx={{ py: 2 }}>
           {title}

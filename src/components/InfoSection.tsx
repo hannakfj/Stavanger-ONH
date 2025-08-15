@@ -19,7 +19,7 @@ const InfoSection = () => {
         px: 3,
       }}
     >
-      <Grid container spacing={3} justifyContent="center">
+      <Grid container spacing={2} justifyContent="center">
         {infoBoxList.map((box, index) => (
           <InfoBox
             key={index}
