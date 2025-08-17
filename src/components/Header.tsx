@@ -44,11 +44,10 @@ export default function Header() {
   const menuItems = [
     { label: t("mainButton"), path: "/" },
     { label: t("appointment"), path: "/appointment" },
-    { label: t("hearingaid.title"), path: "/hearingaid" },
     { label: t("contactButton"), path: "#contact" },
     { label: t("staffButton"), path: "/employees" },
     { label: t("treatmentsButton"), path: "/treatments" },
-    { label: t("aboutUs"), path: "/about" },
+    { label: t("hearingaid.title"), path: "/hearingaid" },
   ];
 
   return (
@@ -74,7 +73,6 @@ export default function Header() {
               {item.label}
             </Button>
           ))}
-          <LanguageSwitcher />
         </Box>
 
         <Box sx={{ display: { xs: "flex", md: "none" } }}>
@@ -90,7 +88,6 @@ export default function Header() {
                 {item.label}
               </MenuItem>
             ))}
-            <LanguageSwitcher />
           </Menu>
         </Box>
       </Toolbar>

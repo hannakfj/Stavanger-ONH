@@ -16,7 +16,7 @@ const TreatmentCard: React.FC<TreatmentCardProps> = ({
     <Card
       onClick={onClick}
       sx={{
-        maxWidth: 345,
+        maxWidth: 300,
         borderRadius: 2,
         boxShadow: 3,
         cursor: onClick ? "pointer" : "default",
@@ -28,11 +28,12 @@ const TreatmentCard: React.FC<TreatmentCardProps> = ({
     >
       <CardMedia
         component="img"
-        height="180"
+        height="230"
         image={image}
         alt={treatmentName}
         sx={{
-          objectFit: "cover",
+          objectFit: "cover", // fills and crops
+          objectPosition: "center", // centers the crop
         }}
       />
       <CardContent>

@@ -6,7 +6,6 @@ import InfoSection from "../components/InfoSection";
 
 function HomePage() {
   const { t } = useTranslation();
-  const navigate = useNavigate();
   return (
     <>
       <Hero />
@@ -29,33 +28,13 @@ function HomePage() {
             gap: 4,
           }}
         >
-          <Box py={2}>
-            <Typography
-              variant="h6"
-              color="text.secondary"
-              sx={{ p: 2, maxWidth: "500px", mx: "auto" }}
-            >
-              {t("infoFrontpage.first")}
-            </Typography>
-
-            <Typography
-              variant="h6"
-              color="text.secondary"
-              sx={{ p: 2, maxWidth: "500px", mx: "auto" }}
-            >
-              {t("infoFrontpage.third")}
-              <Button
-                onClick={() => {
-                  navigate("/about");
-                  setTimeout(() => {
-                    window.scrollTo({ top: 0, behavior: "smooth" });
-                  }, 50);
-                }}
-              >
-                {t("moreInfoButton")}
-              </Button>
-            </Typography>
-          </Box>
+          <Typography
+            variant="h6"
+            color="text.secondary"
+            sx={{ p: 2, maxWidth: "500px", mx: "auto" }}
+          >
+            {t("infoFrontpage.first")}
+          </Typography>
           <Box
             component="img"
             src="/helsevestlogo.webp"
@@ -68,7 +47,6 @@ function HomePage() {
           />
         </Box>
       </Box>
-      <InfoSection />
     </>
   );
 }

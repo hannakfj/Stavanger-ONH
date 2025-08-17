@@ -61,10 +61,9 @@ export default function TreatmentDetail() {
       {[1, 2, 3, 4, 5].map((num) => (
         <Box key={num} sx={{ mt: 4 }}>
           <Typography variant="h5" gutterBottom>
-            {treatment[`heading${num}` as keyof typeof treatment] ||
-              treatment[`firstHeading`]}
+            {treatment[`heading${num}` as keyof typeof treatment]}
           </Typography>
-          {num === 5 && treatment.listInfo && (
+          {num === 2 && treatment.listInfo && (
             <Box component="ul" sx={{ pl: 3, mb: 2 }}>
               {treatment.listInfo.map((info, index) => (
                 <Typography
@@ -84,8 +83,7 @@ export default function TreatmentDetail() {
             variant="body1"
             sx={{ lineHeight: 1.8, color: "text.secondary" }}
           >
-            {treatment[`section${num}` as keyof typeof treatment] ||
-              treatment[`firstSection`]}
+            {treatment[`section${num}` as keyof typeof treatment]}
           </Typography>
         </Box>
       ))}

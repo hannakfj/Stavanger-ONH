@@ -52,7 +52,7 @@ function Hero() {
             fontSize: { xs: "1.5rem", md: "3.5rem" },
             fontWeight: "bold",
             px: 2,
-            backgroundColor: "rgba(255, 255, 255, 0.8)",
+            backgroundColor: "rgba(255, 255, 255, 0.4)",
           }}
         >
           {t("welcome")}

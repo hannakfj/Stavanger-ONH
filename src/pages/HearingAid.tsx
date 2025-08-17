@@ -19,7 +19,7 @@ function HearingAid() {
     >
       <Typography
         variant="h4"
-        color="text.secondary"
+        color="text.primary"
         sx={{ p: 2, maxWidth: "500px", mx: "auto" }}
       >
         {t("hearingaid.title")}
@@ -54,7 +54,7 @@ function HearingAid() {
             marginBottom: 2,
             maxWidth: "800px",
             mx: "auto",
-            color: "text.secondary",
+            color: "text.primary",
           }}
         >
           {t("hearingaid.supplier")}

@@ -24,10 +24,20 @@
     "letter.regards": "Med vennlig hilsen",
     "letter.signature": "Elin-Johanne Katle",
     "letter.clinic": "Stavanger Øre-Nese-Hals",
-    "appointment": "Time",
+    "appointment": "Timeavtale",
     "appointment.descriptionfirst": "Du må være henvist fra egen lege/fastlege for å få time hos oss! Legen din sender en henvisning til oss med relevante opplysninger. Ut fra disse opplysninger vurderer vi hastegrad, tidsbehov og setter opp avtale hos ØNH legen. Er du henvist til utredning som krever hørselstest, innebærer det time både hos audiograf (hørselsmåler) og lege.",
+    "appointment.infoList": [
+      {
+        "title": "Info om timen",
+        "description": "Du får beskjed via Helse Norge om tidspunkt for time. Dersom du ikke er på Helse Norge plattformen, så sender vi sms om timen."
+      },
+      {
+        "title": "Ikke møtt til time",
+        "description": "Vi har stor pågang og prøver derfor å utnytte all kapasitet. Møter du ikke til timen eller endrer den mindre enn 24 timer før avtalt tid (senest fredag for time mandag), får du tilsendt faktura på 456,- + faktureringsgebyr."
+      }
+    ],
     "moreInfoButton": "Mer Info",
-    "infoFrontpage.first": "Stavanger Øre-Nese-Hals er en spesialistpraksis for utredning og behandling av lidelser i øre-nese-hals-området. Klinikken er en avtalepraksis, dvs. legene har driftsavtale  med Helse Vest RHF ",
+    "infoFrontpage.first": "Stavanger Øre-Nese-Hals er en spesialistpraksis under Helse Vest som utreder og behandler lidelser i øre-nese-hals-området. Pasienter er henvist til oss fra fastleger, sykehus eller andre legespesialister.",
     "infoFrontpage.second": "Dette innebærer at klinikken er pålagt å drive i henhold til regler som følge av rammeavtale for avtalespesialister, inngått mellom  og de regionale helseforetak. I tillegg følges de retningslinjer som er lagt i Lov om Spesialisthelsetjenesten, Helsepresonelloven og Lov om Pasientrettigheter i Norge.",
     "infoFrontpage.third": "Pasienter mottas etter henvisning fra primærhelsetjenesten, andre spesialiserer og sykehusavdelinger.",
     "hearingaid.title": "Høreapparat",
@@ -70,28 +80,59 @@
     "treatments": [
       {
         "slug": "fluid-in-middle-ear",
-        "title": "Væske i mellomøret",
-        "image": "/nesebihuler.png",
-        "heading1": "Væske i mellomøret – sekretorisk otitt",
-        "section1": "Noen barn kan etter en ørebetennelse eller forkjølelse få en opphopning av væske i øret. Dette kalles sekretorisk otitt og kan gi plager, for eksempel i form av lett hørenedsettelse, oppvåkninger nattestid, iritabilitet ol. Noen barn har ingen plager. Tilstanden går oftest over av seg selv, og hvis den skulle vedvare, finnes det behandling. Barn får dette hyppigere enn voksne bla fordi øretrompeten fra mellomøret til svelget er mer horisontal enn hos voksne.",
-        "heading2": "Hva er sekretorisk otitt?",
-        "section2": "Mellomøret er den delen av øret du finner like bak trommehinnen. Dette rommet er vanligvis fylt med luft. Slik kan de tre knoklene som finnes her, bevege seg fritt og overføre lydsignaler fra trommehinnen til det indre øret. I det indre øret omdannes signalene til nerveimpulser som går til hjernen.",
-        "section3": "Sekretorisk otitt betyr at mellomøret fylles med væske. Vanligvis skjer dette etter en ørebetennelse eller infeksjon øvre luftveier, dvs forkjølelse . Væsken ligner tykt slim. Væsken kan forhindre at trommehinnen og de tre knoklene i mellomøret beveger seg fritt. Dette fører igjen til at lydsignalet svekkes, hørselen blir midlertidig nedsatt. Sekretorisk otitt er en vanlig tilstand som kan oppstå i ett eller i begge ører. 80% av alle barn har en periode med dette som varer mer enn 3 mnd før skolealder.",
-        "heading4": "Hva kan symptomene være?",
-        "section4": "Noe nedsatt hørsel er det vanligste symptomet. Du kan merke at barnet ditt ikke hører hva du sier, har lyden høyt på TV, iPad etc, ikke følger med på hva som skjer, virke litt irritert. Små barn vil ofte være plaget med urolig nattesøvn,oppvåkninger nattestid, og kanskje ta seg mye til ørene. Dårlig hørsel kan ha flere årsaker, men sekretorisk otitt er den vanligste hos barn. Dersom du opplever at barnet ditt ikke hører godt, bør du oppsøke fastlegen. Legen kommer til å sjekke ørene, og kan også teste hvor godt trommehinnen fungerer. Hvis barnets sekretoriske otitt ikke forsvinner av seg selv, eller stadig kommer tilbake, kan barnet henvises til en spesialist i ØNH sykdommer.",
-        "heading5": "Hva slags behandling virker?",
-        "section5": "Allmennleger anbefaler vanligvis en “vent-og-se”-strategi i begynnelsen. I vent-og-se-perioden vil legen ta barnet inn til kontroller og følge tilstandens utvikling. Hvis væsken ikke forsvinner fra mellomøret, og barnet har et hørselsproblem i begge ører, eller er mye plaget av trykkplager kan legen henvise til ØNH lege."
+        "title": "Øre",
+        "image": "/ear.png",
+        "list": [
+          "Væske i mellomøret – sekretorisk otitt",
+          "Tinnitus",
+          "Hørselstap",
+          " Øregangsproblematikk"
+        ]
       },
       {
         "slug": "hearing",
-        "title": "Hørsel",
-        "image": "/hearing.jpg",
+        "title": "Hørsel og høreapparat",
+        "image": "/hearingaid.PNG",
         "heading1": "Hørselsmålinger og Høreapparater",
         "section1": "Hørselsmåling og eventuelt tilpasning av høreapparat foregår etter henvisning fra din lege. Du vil få kombinert time hos både audiograf og ØNH lege. Audiografene foretar audiometri (hørselsundersøkelser) med avansert utstyr, og vi tilpasser og utprøver høreapparater for trygdens regning.",
         "section2": "Mistenker du mye ørevoks før en hørselsutredning, ønsker vi at du skyller ørene hjemme ev. hos fastlege før time.",
         "heading3": "Tilpasning av høreapparat",
         "section3": "Hvis resultatet viser at du kan ha nytte av et høreapparat, vil vi sammen finne det vi tenker er den beste løsning for deg, og tar om nødvendig avtrykk av øregangen for støpning av propp/form til høreapparatet. Noen pasienter har erfaringer fra tidligere, og noen pasienter er tydelig på hva de tror ikke fungerer og dette tas det hensyn til. Deretter får du tildelt en ny time mens vi bestiller høreapparatet fra forhandler. Neste gang du kommer får du utlevert høreapparatet, du får instruksjon i bruken og håndteringen, du prøver apparatet, og det programmeres slik at det passer til ditt hørselstap. Vær oppmerksom på at ditt hørseltap kan ha kommet gradvis gjennom flere år, nesten umerkelig, og det kan være noe overveldende å få korrigert dette gjennom et høreapparat. Det er derfor viktig at du er tålmodig og prøver apparatet noen timer hver dag for at hjernen skal akseptere den ”nye” hørselen. Vi setter alltid opp til en kontrolltime en stund etter at du har fått dine høreapparater.  Vi har tilgang til alle tilgjengelige og godkjente høreapparatmodeller på det norske marked. Normalt dekkes mesteparten av høreapparatkostnadene av NAV etter søknad fra oss. Kostnadene blir derfor minimale for pasientene, det er stort sett egenandelene i forbindelse med utprøvningen. Gjeldene regelverk p.t. er at et høreapparat skal beholdes i seks år før man evt. kan søke om nye apparater. Dette praktiserer NAV nokså strengt, men unntak kan forekomme. Er det spesielle omstendigheter, vi kan søke om ekstraordinær tilpasning på medisinsk grunnlag. Når du har hatt høreapparat en tid, hender det at du har behov for justering av apparatet. Du kan da ringe og bestille en justeringstime. ",
         "section4": "De fleste forsikrer høreapparatene sine hos eget forsikringsselskap eller gjennom Hørselshemmedes Landsforbund."
+      },
+      {
+        "slug": "nose-sinus",
+        "title": "Nese og bihuler",
+        "image": "/nesebihuler.png",
+        "list": ["Nesetetthet", "Bihuleplager"]
+      },
+      {
+        "slug": "throat",
+        "image": "/hals.png",
+        "title": "Hals",
+        "list": ["Halsbetennelse", "Heshet", "Svelgevansker"]
+      },
+      {
+        "slug": "Kirurgi",
+        "title": "Kirurgi",
+        "image": "/kirurgi.png",
+        "list": ["Mindre inngrep i lokalbedøvelse"]
+      },
+      {
+        "slug": "allergy",
+        "title": "Allergi",
+        "image": "/allergi.jpg",
+        "section1": "Klinikken har spesialkompetanse i utredning og behandling av luftveisallergi. Vi tilbyr: ",
+        "listInfo": [
+          "Prikktest",
+          "Spirometri",
+          "Nasal provokasjonstest",
+          "Allergivaksinasjon/Allergen immunterapi",
+          "Utredning og behandling av allergi mot veps og bie",
+          "Høy faglig kompetanse innen allergologi."
+        ],
+        "heading3": "Henvist for allergi",
+        "section3": "Dersom du er henvist for utredning av allergi eller nesesymptomer, kan det hende at det vil bli utført en allergitest i form av prikktest. Da skal du ikke ha tatt allergimedisiner siste uken før timen."
       },
       {
         "slug": "sleep",
@@ -113,38 +154,6 @@
         ],
         "section5": "Undersøkelsen gir ingen smerter, men noen synes at nesegrimen er ubehagelig. Se instruksjonsvideo laget av Drammen sykehus her:",
         "linkSleep": "https://www.youtube.com/watch?v=tESd4UWKvdk"
-      },
-      {
-        "slug": "allergy",
-        "title": "Allergi",
-        "image": "/allergi.jpg",
-        "section1": "Klinikken har spesialkompetanse i utredning og behandling av luftveisallergi. Vi tilbyr: ",
-        "listInfo": [
-          "Prikktest",
-          "Spirometri",
-          "Nasal provokasjonstest",
-          "Allergivaksinasjon/Allergen immunterapi",
-          "Utredning og behandling av allergi mot veps og bie",
-          "Høy faglig kompetanse innen allergologi."
-        ]
-      },
-      {
-        "slug": "other-services",
-        "title": "Andre tjenester",
-        "image": "/logo.webp",
-        "list": [
-          "Generell øre-nese-hals utredning og diagnostikk",
-          "Utredning av svulster i øre-nese-hals området",
-          "Allergiutredning og vaksinasjon",
-          "Nese/bihulesykdommer",
-          "Hørsel/høreapparat",
-          "Svimmelhet",
-          "Tinnitus",
-          "Stemmeproblemer",
-          "Infeksjoner og inflammatoriske lidelser",
-          "Snorking/søvnforstyrrelser",
-          "Operasjoner i lokalbedøvelse: dren, polypper, conchotomi, hudlesjoner"
-        ]
       }
     ],
     "contactUs": "Kontakt oss",
@@ -186,40 +195,19 @@
         "description": "Martine Skudem har lang erfaring som ØNH spesialist og overlege på sykehus."
       }
     ],
-    "infoTreatmentsDescription": "Vi tilbyr et bredt spekter av behandlingstilbud innen Øre-Nese-Hals og allergologi. Våre behandlinger er tilpasset den enkelte pasients behov og kan inkludere både medisinsk og kirurgisk tilnærming.",
-    "infoBoxList": [
+    "infoTreatmentsDescription": "Øre-nese-hals undersøkelser for diagnostikk og behandling innenfor følgende hovedområder:",
+    "infoTime": [
       {
         "title": "Info om timen",
         "description": "Du får beskjed via Helse Norge om tidspunkt for time. Dersom du ikke er på Helse Norge plattformen, så sender vi sms om timen."
-      },
-      {
-        "title": "Henvist for hørselsutredning",
-        "description": "Dersom hørselsutredning viser at du kan få tilbud om høreapparat, så vil du få time på et senere tidspunkt bfor høreapparattilpasning."
-      },
-      {
-        "title": "Henvist for allergi",
-        "description": "Dersom du er henvist for utredning av allergi eller nesesymptomer, kan det hende at det vil bli utført en allergitest i form av prikktest. Da skal du ikke ha tatt allergimedisiner siste uken før timen."
       },
       {
         "title": "Ikke møtt til time",
         "description": "Vi har stor pågang og prøver derfor å utnytte all kapasitet. Møter du ikke til timen eller endrer den mindre enn 24 timer før avtalt tid (senest fredag for time mandag), får du tilsendt faktura på 456,- + faktureringsgebyr."
       }
     ],
-    "servicesTitle": "Våre tjenester",
-    "services": [
-      "Generell øre-nese-hals utredning og diagnostikk",
-      "Utredning av svulster i øre-nese-hals området",
-      "Allergiutredning og vaksinasjon",
-      "Nese/bihulesykdommer",
-      "Hørsel/høreapparat",
-      "Svimmelhet",
-      "Tinnitus",
-      "Stemmeproblemer",
-      "Infeksjoner og inflammatoriske lidelser",
-      "Snorking/søvnforstyrrelser",
-      "Operasjoner i lokalbedøvelse: dren, polypper, conchotomi, hudlesjoner"
-    ],
-    "entrancePhoto": "/inngang.png"
+
+    "entrancePhoto": "/entrance.jpg"
   },
 
   "en": {
@@ -249,6 +237,7 @@
     "aboutUs": "About Us",
     "appointment": "Appointment",
     "appointment.descriptionfirst": "You must be referred by your own doctor/general practitioner to get an appointment with us! Your doctor sends a referral to us with relevant information. Based on this information, we assess urgency, time needs, and schedule an appointment with the ENT doctor. If you are referred for an assessment that requires a hearing test, it involves an appointment with both the audiologist (hearing tester) and the doctor.",
+    "appointment.infoList": [],
     "moreInfoButton": "More Info",
     "infoFrontpage.first": "Stavanger Ear-Nose-Throat is a specialist practice for the assessment and treatment of conditions in the ear-nose-throat area. The clinic is a contracted practice, meaning that the doctors have a service agreement with Helse Vest RHF.",
     "infoFrontpage.second": "This means that the clinic is required to operate in accordance with regulations resulting from the framework agreement for contracted specialists, entered into between the regional health authorities. In addition, the guidelines laid out in the Specialist Health Services Act, the Health Personnel Act, and the Patient Rights Act in Norway are followed.",
@@ -350,6 +339,7 @@
           "High professional competence in allergology."
         ]
       },
+
       {
         "slug": "other-services",
         "title": "Other services",
@@ -409,37 +399,15 @@
       }
     ],
     "infoTreatmentsDescription": "We offer a wide range of treatment options in Ear-Nose-Throat and allergology. Our treatments are tailored to the individual patient's needs and may include both medical and surgical approaches.",
-    "infoBoxList": [
+    "infoTime": [
       {
         "title": "Appointment Information",
         "description": "You will be notified via Helse Norge about the time for your appointment. If you are not on the Helse Norge platform, we will send an SMS about the appointment."
       },
       {
-        "title": "Referred for Hearing Assessment",
-        "description": "If the hearing assessment shows that you may be offered a hearing aid, you will be given an appointment at a later date for hearing aid fitting."
-      },
-      {
-        "title": "Referred for Allergy",
-        "description": "If you are referred for allergy or nasal symptoms, it may involve an allergy test in the form of a skin prick test. You should not have taken allergy medications in the week leading up to the appointment."
-      },
-      {
         "title": "Did Not Attend Appointment",
         "description": "We have high demand and therefore try to utilize all capacity. If you do not attend the appointment or change it less than 24 hours before the scheduled time (at the latest Friday for an appointment on Monday), you will receive an invoice for 435,- + invoicing fee."
       }
-    ],
-    "servicesTitle": "Our Services",
-    "services": [
-      "General Ear-Nose-Throat assessment and diagnostics",
-      "Tumor assessment in the ear-nose-throat area",
-      "Allergy assessment and immunotherapy",
-      "Nasal/sinus diseases",
-      "Hearing/hearing aids",
-      "Dizziness",
-      "Tinnitus",
-      "Voice disorders",
-      "Infections and inflammatory conditions",
-      "Snoring/sleep disorders",
-      "Local anesthesia surgeries: tubes, polyps, conchotomy, skin lesions"
     ],
     "entrancePhoto": "/entrance.png"
   }
