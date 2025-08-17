@@ -16,8 +16,10 @@ const TreatmentCard: React.FC<TreatmentCardProps> = ({
     <Card
       onClick={onClick}
       sx={{
+        width: "100%",
         maxWidth: 300,
         borderRadius: 2,
+        margin: "0 auto",
         boxShadow: 3,
         cursor: onClick ? "pointer" : "default",
         transition: "transform 0.2s",

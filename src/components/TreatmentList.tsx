@@ -7,10 +7,14 @@ import { useNavigate } from "react-router-dom";
 export default function TreatmentList() {
   const { t } = useTranslation();
   const navigate = useNavigate();
-  const treatments = t<{ slug: string; title: string; image: string }[]>("treatments");
+  const treatments =
+    t<{ slug: string; title: string; image: string }[]>("treatments");
   const handleNavigate = (treatmentName: string) => {
     const urlSafeName = encodeURIComponent(treatmentName);
     navigate(`/treatment/${urlSafeName}`);
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }, 50);
   };
 
   return (
@@ -24,6 +28,8 @@ export default function TreatmentList() {
             md: "1fr 1fr 1fr",
           },
           gap: 4,
+          justifyContent: "center",
+          justifyItems: "center",
         }}
       >
         {treatments.map((treatment, index) => (

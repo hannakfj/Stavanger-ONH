@@ -39,7 +39,7 @@ export default function TreatmentDetail() {
         component="img"
         src={treatment.image}
         alt={treatment.title}
-        sx={{ width: { xs: "90%" }, height: "auto", borderRadius: 2, mb: 4 }}
+        sx={{ width: { xs: "80%", sm: "60%", md: "60%" }, height: "auto", borderRadius: 2, mb: 4 }}
       />
       {treatment.list &&
         treatment.list.map((service, index) => (
