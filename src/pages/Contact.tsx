@@ -6,7 +6,7 @@ import MailOutlineIcon from "@mui/icons-material/MailOutline";
 
 function Contact() {
   const { t } = useTranslation();
-  const info = "Kan avvikle i fellesferie og høytider";
+  const info = "Kan avvike i fellesferie og høytider";
   return (
     <Box
       id="contact-section"
