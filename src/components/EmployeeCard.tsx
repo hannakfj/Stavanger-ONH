@@ -17,7 +17,13 @@ const EmployeeCard: React.FC<EmployeeCardProps> = ({
   return (
     <Box sx={{ maxWidth: 300, margin: "auto", mt: 2 }}>
       <Card>
-        <CardMedia component="img" height="300" image={image} alt={name} />
+        <CardMedia
+          component="img"
+          loading="lazy"
+          height="300"
+          image={image}
+          alt={name}
+        />
         <Box sx={{ padding: 2 }}>
           <Typography variant="h6" sx={{ fontFamily: "sans-serif" }}>
             {name}

@@ -33,9 +33,10 @@ const TreatmentCard: React.FC<TreatmentCardProps> = ({
         height="230"
         image={image}
         alt={treatmentName}
+        loading="lazy"
         sx={{
-          objectFit: "cover", // fills and crops
-          objectPosition: "center", // centers the crop
+          objectFit: "cover",
+          objectPosition: "center",
         }}
       />
       <CardContent>
