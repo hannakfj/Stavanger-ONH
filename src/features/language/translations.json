@@ -25,7 +25,7 @@
     "letter.signature": "Elin-Johanne Katle",
     "letter.clinic": "Stavanger Øre-Nese-Hals",
     "appointment": "Timeavtale",
-    "appointment.descriptionfirst": "Du må være henvist fra egen lege/fastlege for å få time hos oss. Legen din sender en henvisning til oss med relevante opplysninger. Ut fra disse opplysninger vurderer vi hastegrad, tidsbehov og setter opp avtale hos ØNH legen. Er du henvist til utredning som krever hørselstest, innebærer det time både hos audiograf (hørselsmåler) og lege.",
+    "appointment.descriptionfirst": "Du må være henvist fra egen lege/fastlege for å få time hos oss. Legen din sender en henvisning til oss med relevante opplysninger. Ut fra disse opplysninger vurderer vi hastegrad, tidsbehov og setter opp avtale hos ØNH legen. Er du henvist til utredning som krever hørselstest, innebærer det time både hos audiograf og lege.",
     "appointment.infoList": [
       {
         "title": "Info om timen",
@@ -162,7 +162,7 @@
     "phoneHours": "Telefontid (man-fre)",
     "address": "Adresse",
     "openingHours": "Åpningstider (man-fre)",
-    "staffDescription": "Våre ansatte er høyt kvalifiserte og har bred erfaring i ØNH sykdommer inkludert høreapparat og allergologi. Vi jobber kontinuerlig med faglig utvikling for å kunne tilby best mulig behandling til våre pasienter.",
+    "staffDescription": "Våre ansatte har bred erfaring i ØNH sykdommer inkludert høreapparat og allergologi. Vi jobber kontinuerlig med faglig utvikling for å kunne tilby best mulig behandling til våre pasienter.",
     "staff": [
       {
         "name": "Elin-Johanne Katle",
