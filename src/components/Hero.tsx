@@ -37,7 +37,7 @@ function Hero() {
           right: 0,
           bottom: 0,
           opacity: 0.7,
-          backgroundImage: "url('/katle.jpeg')",
+          backgroundImage: "url('/katle.webp')",
           backgroundPosition: "center",
           zIndex: -1,
         }}
