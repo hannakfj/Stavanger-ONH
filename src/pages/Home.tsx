@@ -40,7 +40,7 @@ function HomePage() {
             src="/helsevestlogo.webp"
             alt="Helse Vest Logo"
             sx={{
-              width: { xs: "50%", sm: "40%" },
+              width: { xs: "30%", sm: "15%" },
               maxWidth: "300px",
               height: "auto",
             }}
