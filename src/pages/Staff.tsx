@@ -6,18 +6,28 @@ function Staff() {
   const { t } = useTranslation();
 
   return (
-    <Box sx={{ px: 2, py: 4 }}>
+    <Box >
       <Typography
-        component="h1"
-        variant="h5"
-        gutterBottom
+        variant="h4"
+        color="text.primary"
         sx={{
           textAlign: "center",
-          marginBottom: 4,
           maxWidth: "800px",
           mx: "auto",
-          lineHeight: 1.6,
-          color: "text.secondary",
+          p: 2,
+        }}
+      >
+        {t("staffButton")}
+      </Typography>
+      <Typography
+        variant="h6"
+        color="text.secondary"
+        sx={{
+          px: 2,
+
+          textAlign: "center",
+          maxWidth: "800px",
+          mx: "auto",
         }}
       >
         {t("staffDescription")}

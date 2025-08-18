@@ -6,6 +6,7 @@ import {
   IconButton,
   Menu,
   MenuItem,
+  Divider,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useState } from "react";
@@ -44,16 +45,22 @@ export default function Header() {
   const menuItems = [
     { label: t("mainButton"), path: "/" },
     { label: t("appointment"), path: "/appointment" },
-    { label: t("contactButton"), path: "#contact" },
-    { label: t("staffButton"), path: "/employees" },
     { label: t("treatmentsButton"), path: "/treatments" },
     { label: t("hearingaid.title"), path: "/hearingaid" },
+    { label: t("staffButton"), path: "/employees" },
+    { label: t("contactButton"), path: "#contact" },
   ];
 
   return (
     <AppBar
       position="sticky"
-      sx={{ backgroundColor: "#fff", color: "#000", boxShadow: "none" }}
+      sx={{
+        backgroundColor: "#fff",
+        color: "#000",
+        boxShadow: "none",
+        borderBottom: "1px solid #18AEAC",
+        borderWidth: "0 0 2px 0",
+      }}
     >
       <Toolbar sx={{ justifyContent: "space-between" }}>
         <MenuItem onClick={() => handleNavigate("/")}>

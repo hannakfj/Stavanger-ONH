@@ -25,7 +25,7 @@
     "letter.signature": "Elin-Johanne Katle",
     "letter.clinic": "Stavanger Øre-Nese-Hals",
     "appointment": "Timeavtale",
-    "appointment.descriptionfirst": "Du må være henvist fra egen lege/fastlege for å få time hos oss! Legen din sender en henvisning til oss med relevante opplysninger. Ut fra disse opplysninger vurderer vi hastegrad, tidsbehov og setter opp avtale hos ØNH legen. Er du henvist til utredning som krever hørselstest, innebærer det time både hos audiograf (hørselsmåler) og lege.",
+    "appointment.descriptionfirst": "Du må være henvist fra egen lege/fastlege for å få time hos oss. Legen din sender en henvisning til oss med relevante opplysninger. Ut fra disse opplysninger vurderer vi hastegrad, tidsbehov og setter opp avtale hos ØNH legen. Er du henvist til utredning som krever hørselstest, innebærer det time både hos audiograf (hørselsmåler) og lege.",
     "appointment.infoList": [
       {
         "title": "Info om timen",
@@ -33,7 +33,7 @@
       },
       {
         "title": "Ikke møtt til time",
-        "description": "Vi har stor pågang og prøver derfor å utnytte all kapasitet. Møter du ikke til timen eller endrer den mindre enn 24 timer før avtalt tid (senest fredag for time mandag), får du tilsendt faktura på 456,- + faktureringsgebyr."
+        "description": "Vi har stor pågang og prøver derfor å utnytte all kapasitet. Møter du ikke til timen eller endrer den mindre enn 24 timer før avtalt tid (senest fredag for time mandag), får du tilsendt faktura på egenandel inkludert faktureringsgebyr."
       }
     ],
     "moreInfoButton": "Mer Info",
@@ -113,12 +113,6 @@
         "list": ["Halsbetennelse", "Heshet", "Svelgevansker"]
       },
       {
-        "slug": "Kirurgi",
-        "title": "Kirurgi",
-        "image": "/kirurgi.webp",
-        "list": ["Mindre inngrep i lokalbedøvelse"]
-      },
-      {
         "slug": "allergy",
         "title": "Allergi",
         "image": "/allergi.webp",
@@ -154,6 +148,12 @@
         ],
         "section5": "Undersøkelsen gir ingen smerter, men noen synes at nesegrimen er ubehagelig. Se instruksjonsvideo laget av Drammen sykehus her:",
         "linkSleep": "https://www.youtube.com/watch?v=tESd4UWKvdk"
+      },
+      {
+        "slug": "Kirurgi",
+        "title": "Kirurgi",
+        "image": "/kirurgi.webp",
+        "list": ["Mindre inngrep i lokalbedøvelse"]
       }
     ],
     "contactUs": "Kontakt oss",
