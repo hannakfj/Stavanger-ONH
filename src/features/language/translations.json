@@ -12,7 +12,7 @@
     "letter.clinicName": "Stavanger Øre-Nese-Hals",
     "letter.address": "Boganesveien 10\n4020 Stavanger",
     "letter.phone": "Telefon: 51 88 35 00",
-    "letter.intro": "Du har fått time og / eller vil få sms/ melding i Helse Norge om time ved Stavanger Øre-Nese-Hals hos Øre-Nese-Halsspesialist Elin-Johanne Katle eller Martine Skudem.",
+    "letter.intro": "Du har fått time ved Stavanger Øre-Nese-Hals.",
     "letter.location": "Vi holder til i etasjen over REMA butikken ved Hinna krossen. Inngang motsatt ende av bygget i forhold til REMA og Apotek 1.",
     "letter.parking": "Det er gode parkeringsmuligheter utenfor klinikken.",
     "letter.allergy": "Bruker du tabletter mot allergi og skal ta allergi test som del av konsultasjonen, ber vi om at du unngår å ta disse medikamentene 3-4 dager før du kommer til timen. Føler du at du ikke kan være uten tabletter, ta kontakt med oss.",
@@ -162,7 +162,7 @@
     "phoneHours": "Telefontid (man-fre)",
     "address": "Adresse",
     "openingHours": "Åpningstider (man-fre)",
-    "staffDescription": "Våre ansatte har bred erfaring i ØNH sykdommer inkludert hørselsutredning, høreapparat og allergologi. Vi jobber kontinuerlig med faglig utvikling for å kunne tilby best mulig behandling til våre pasienter.",
+    "staffDescription": "Våre ansatte har bred erfaring i ØNH sykdommer. Vi har i tillegg spesialkompetanse innen allergologi, hørselsutredning og høreapparat. Vi jobber kontinuerlig med faglig utvikling for å kunne tilby best mulig behandling til våre pasienter.",
     "staff": [
       {
         "name": "Elin-Johanne Katle",
