@@ -81,7 +81,7 @@
       {
         "slug": "fluid-in-middle-ear",
         "title": "Øre",
-        "image": "/ear.png",
+        "image": "/ear.webp",
         "list": [
           "Væske i mellomøret – sekretorisk otitt",
           "Tinnitus",
@@ -92,7 +92,7 @@
       {
         "slug": "hearing",
         "title": "Hørsel og høreapparat",
-        "image": "/hearingaid.png",
+        "image": "/hearingaid.webp",
         "heading1": "Hørselsmålinger og Høreapparater",
         "section1": "Hørselsmåling og eventuelt tilpasning av høreapparat foregår etter henvisning fra din lege. Du vil få kombinert time hos både audiograf og ØNH lege. Audiografene foretar audiometri (hørselsundersøkelser) med avansert utstyr, og vi tilpasser og utprøver høreapparater for trygdens regning.",
         "section2": "Mistenker du mye ørevoks før en hørselsutredning, ønsker vi at du skyller ørene hjemme ev. hos fastlege før time.",
@@ -103,25 +103,25 @@
       {
         "slug": "nose-sinus",
         "title": "Nese og bihuler",
-        "image": "/nesebihuler.png",
+        "image": "/nesebihuler.webp",
         "list": ["Nesetetthet", "Bihuleplager"]
       },
       {
         "slug": "throat",
-        "image": "/hals.png",
+        "image": "/hals.webp",
         "title": "Hals",
         "list": ["Halsbetennelse", "Heshet", "Svelgevansker"]
       },
       {
         "slug": "Kirurgi",
         "title": "Kirurgi",
-        "image": "/kirurgi.png",
+        "image": "/kirurgi.webp",
         "list": ["Mindre inngrep i lokalbedøvelse"]
       },
       {
         "slug": "allergy",
         "title": "Allergi",
-        "image": "/allergi.jpg",
+        "image": "/allergi.webp",
         "section1": "Klinikken har spesialkompetanse i utredning og behandling av luftveisallergi. Vi tilbyr: ",
         "listInfo": [
           "Prikktest",
@@ -137,7 +137,7 @@
       {
         "slug": "sleep",
         "title": "Søvn",
-        "image": "/sleep.jpg",
+        "image": "/sleep.webp",
         "section1": "Dersom din fastlege henviser deg til oss pga mistenke om at du lider av søvnapné, vil du få gjennomført en søvnregistrering før time hos lege. Du får da time hos erfaren helsesekretær som gir deg utstyr til søvnregistrering for hjemmemåling og gir deg instruksjoner om hvordan du utfører denne. Utstyret leveres inn på klinikken  neste morgen, og du får time hos lege når undersøkelsen er analysert.",
         "heading2": "Søvnutredning",
         "section2": "Vi tilbyr søvnregistrering i utredning ved spørsmål om obstruktiv søvnapné. Obstruktiv søvnapne syndrom lengre og hyppige pustestopp under søvn som gir symptomer på dagtretthet. Korte pustepauser under søvn er nokså vanlig. Det er varigheten på pustestoppet og antall pustestopp i løpet av natten som definerer om det er snakk om sykdom.",
@@ -167,31 +167,31 @@
       {
         "name": "Elin-Johanne Katle",
         "position": "Spesialist i Øre-Nese-Hals",
-        "image": "/elin-johanne.jpeg",
+        "image": "/elin-johanne.webp",
         "description": "Elin-Johanne Katle har lang erfaring som ØNH spesialist og overlege på sykehus, seksjonsoverlege på allergisenteret. Spesialutdannelse i allergologi og  PhD."
       },
       {
         "name": "Tiril Jordahl",
         "position": "Audiograf",
-        "image": "/tiril.jpg",
+        "image": "/tiril.webp",
         "description": "Tiril Jordahl er vår audiograf med spesialisering innen hørselsutredning og behandling. Hun har bred erfaring med pasienter med hørselstap."
       },
       {
         "name": "Elizabeth Tjørhom",
         "position": "Helsesekretær",
-        "image": "/elizabeth.jpg",
+        "image": "/elizabeth.webp",
         "description": "Elizabeth Tjørhom er vår dyktige helsesekretær som har lang erfaring med pasientbehandling og administrasjon i ØNH-praksis."
       },
       {
         "name": "Elitsa Diyanova Aleksieva",
         "position": "Helsesekretær",
-        "image": "/elitsa.jpg",
+        "image": "/elitsa.webp",
         "description": "Elitsa Diyanova Aleksieva er vår dyktige helsesekretær som assisterer legen ved operasjoner, gjør kliniske tester og har ansvar for orden i klinikken."
       },
       {
         "name": "Martine Skudem",
         "position": "ØNH spesialist",
-        "image": "/martine.jpg",
+        "image": "/martine.webp",
         "description": "Martine Skudem har lang erfaring som ØNH spesialist og overlege på sykehus."
       }
     ],
@@ -207,7 +207,7 @@
       }
     ],
 
-    "entrancePhoto": "/entrance.jpg"
+    "entrancePhoto": "/entrance.webp"
   },
 
   "en": {
