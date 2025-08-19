@@ -168,31 +168,31 @@
         "name": "Elin-Johanne Katle",
         "position": "Spesialist i Øre-Nese-Hals",
         "image": "/elin-johanne.webp",
-        "description": "Elin-Johanne Katle har lang erfaring som ØNH spesialist og overlege på sykehus, seksjonsoverlege på allergisenteret. Spesialutdannelse i allergologi og  PhD."
+        "description": "PHD og Daglig leder"
       },
       {
         "name": "Tiril Jordahl",
         "position": "Audiograf",
         "image": "/tiril.webp",
-        "description": "Tiril Jordahl er vår audiograf med spesialisering innen hørselsutredning og behandling. Hun har bred erfaring med pasienter med hørselstap."
+        "description": ""
       },
       {
         "name": "Elizabeth Tjørhom",
         "position": "Helsesekretær",
         "image": "/elizabeth.webp",
-        "description": "Elizabeth Tjørhom er vår dyktige helsesekretær som har lang erfaring med pasientbehandling og administrasjon i ØNH-praksis."
+        "description": ""
       },
       {
         "name": "Elitsa Diyanova Aleksieva",
         "position": "Helsesekretær",
         "image": "/elitsa.webp",
-        "description": "Elitsa Diyanova Aleksieva er vår dyktige helsesekretær som assisterer legen ved operasjoner, gjør kliniske tester og har ansvar for orden i klinikken."
+        "description": ""
       },
       {
         "name": "Martine Skudem",
-        "position": "ØNH spesialist",
+        "position": "Spesialist i Øre-Nese-Hals",
         "image": "/martine.webp",
-        "description": "Martine Skudem har lang erfaring som ØNH spesialist og overlege på sykehus."
+        "description": ""
       }
     ],
     "infoTreatmentsDescription": "Øre-nese-hals undersøkelser for diagnostikk og behandling innenfor følgende hovedområder:",
@@ -371,7 +371,7 @@
         "name": "Elin-Johanne Katle",
         "position": "Ear-Nose-Throat Specialist",
         "image": "/elin-johanne.jpeg",
-        "description": "Elin-Johanne Katle has extensive experience as an ENT specialist and chief physician at a hospital, as well as head of the Allergy Center. She holds a special qualification in allergology and a PhD."
+        "description": "Daglig leder"
       },
       {
         "name": "Tiril Jordahl",

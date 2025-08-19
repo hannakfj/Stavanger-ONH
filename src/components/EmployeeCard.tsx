@@ -38,7 +38,14 @@ const EmployeeCard: React.FC<EmployeeCardProps> = ({
           >
             {position}
           </Typography>
-          <Typography variant="body2" sx={{ fontFamily: "sans-serif" }}>
+          <Typography
+            variant="subtitle1"
+            sx={{
+              fontFamily: "sans-serif",
+              color: "text.secondary",
+              margin: 1,
+            }}
+          >
             {experience}
           </Typography>
         </Box>
