@@ -4,14 +4,16 @@ import React from "react";
 type EmployeeCardProps = {
   name: string;
   position: string;
-  experience: string;
+  description: string;
+  description2: string;
   image: string;
 };
 
 const EmployeeCard: React.FC<EmployeeCardProps> = ({
   name,
   position,
-  experience,
+  description,
+  description2,
   image,
 }) => {
   return (
@@ -46,7 +48,17 @@ const EmployeeCard: React.FC<EmployeeCardProps> = ({
               margin: 1,
             }}
           >
-            {experience}
+            {description}
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            sx={{
+              fontFamily: "sans-serif",
+              color: "text.secondary",
+              margin: 1,
+            }}
+          >
+            {description2}
           </Typography>
         </Box>
       </Card>

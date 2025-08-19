@@ -166,33 +166,30 @@
     "staff": [
       {
         "name": "Elin-Johanne Katle",
-        "position": "Spesialist i Øre-Nese-Hals",
+        "position": "Øre-Nese-Hals Spesialist",
         "image": "/elin-johanne.webp",
-        "description": "PHD og Daglig leder"
+        "description": "PhD ",
+        "description2": "Daglig leder"
       },
       {
         "name": "Tiril Jordahl",
         "position": "Audiograf",
-        "image": "/tiril.webp",
-        "description": ""
+        "image": "/tiril.webp"
       },
       {
         "name": "Elizabeth Tjørhom",
         "position": "Helsesekretær",
-        "image": "/elizabeth.webp",
-        "description": ""
+        "image": "/elizabeth.webp"
       },
       {
         "name": "Elitsa Diyanova Aleksieva",
         "position": "Helsesekretær",
-        "image": "/elitsa.webp",
-        "description": ""
+        "image": "/elitsa.webp"
       },
       {
         "name": "Martine Skudem",
-        "position": "Spesialist i Øre-Nese-Hals",
-        "image": "/martine.webp",
-        "description": ""
+        "position": "Øre-Nese-Hals Spesialist",
+        "image": "/martine.webp"
       }
     ],
     "infoTreatmentsDescription": "Øre-nese-hals undersøkelser for diagnostikk og behandling innenfor følgende hovedområder:",
