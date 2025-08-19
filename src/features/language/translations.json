@@ -166,10 +166,9 @@
     "staff": [
       {
         "name": "Elin-Johanne Katle",
-        "position": "Øre-Nese-Hals Spesialist",
+        "position": "Øre-Nese-Hals Spesialist, PhD",
         "image": "/elin-johanne.webp",
-        "description": "PhD ",
-        "description2": "Daglig leder"
+        "description": "Daglig leder"
       },
       {
         "name": "Tiril Jordahl",

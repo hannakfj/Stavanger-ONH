@@ -5,7 +5,6 @@ type EmployeeCardProps = {
   name: string;
   position: string;
   description: string;
-  description2: string;
   image: string;
 };
 
@@ -13,7 +12,6 @@ const EmployeeCard: React.FC<EmployeeCardProps> = ({
   name,
   position,
   description,
-  description2,
   image,
 }) => {
   return (
@@ -49,16 +47,6 @@ const EmployeeCard: React.FC<EmployeeCardProps> = ({
             }}
           >
             {description}
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            sx={{
-              fontFamily: "sans-serif",
-              color: "text.secondary",
-              margin: 1,
-            }}
-          >
-            {description2}
           </Typography>
         </Box>
       </Card>

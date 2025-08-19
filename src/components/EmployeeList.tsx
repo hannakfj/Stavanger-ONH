@@ -5,11 +5,11 @@ import EmployeeCard from "./EmployeeCard";
 function EmployeeList() {
   const { t } = useTranslation();
   const employees =
-    t<{ name: string; position: string; image: string; description: string, description2: string }[]>(
+    t<{ name: string; position: string; image: string; description: string }[]>(
       "staff"
     );
   return (
-    <Container sx={{ py: 4 }}>  
+    <Container sx={{ py: 4 }}>
       <Box
         sx={{
           display: "grid",
@@ -27,7 +27,6 @@ function EmployeeList() {
             name={employee.name}
             position={employee.position}
             description={employee.description}
-            description2={employee.description2}
             image={employee.image}
           />
         ))}
