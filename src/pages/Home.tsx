@@ -1,8 +1,6 @@
-import { Box, Button, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import { useTranslation } from "../features/language/useTranslation";
 import Hero from "../components/Hero";
-import { useNavigate } from "react-router-dom";
-import InfoSection from "../components/InfoSection";
 
 function HomePage() {
   const { t } = useTranslation();

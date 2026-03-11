@@ -6,13 +6,11 @@ import {
   IconButton,
   Menu,
   MenuItem,
-  Divider,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "../features/language/useTranslation";
-import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function Header() {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);

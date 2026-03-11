@@ -1,13 +1,11 @@
 import Box from "@mui/material/Box";
 import { useTranslation } from "../features/language/useTranslation";
 import Typography from "@mui/material/Typography";
-import { a } from "framer-motion/dist/types.d-CtuPurYT";
-import { title } from "process";
 
 const Appointment = () => {
   const { t } = useTranslation();
   const appointmentInfo = t<{ title: string; description: string }[]>(
-    "appointment.infoList"
+    "appointment.infoList",
   );
   return (
     <Box
