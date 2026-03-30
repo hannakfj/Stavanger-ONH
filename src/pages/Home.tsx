@@ -7,6 +7,13 @@ function HomePage() {
   return (
     <>
       <Hero />
+      <Typography
+        variant="h5"
+        color="text.secondary"
+        sx={{ p: 2, maxWidth: "700px", mx: "auto" }}
+      >
+        {t("påskestengt")}
+      </Typography>
       <Box
         sx={{
           px: 2,
